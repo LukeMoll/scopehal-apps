@@ -108,6 +108,7 @@ jobs:
           build/lib/graphwidget/libgraphwidget.so
           build/lib/scopehal/libscopehal.so
           build/lib/scopeprotocols/libscopeprotocols.so
+          build/lib/scopeexports/libscopeexports.so
 
     - name: Upload Documentation
       uses: actions/upload-artifact@v2
